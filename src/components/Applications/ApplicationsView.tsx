@@ -26,7 +26,10 @@ const ApplicationsView = () => {
             </div>
             <div className="applications">
                 {applicationsState?.selectedApplications.map((application) => (
-                    <ApplicationView application={application} />
+                    <ApplicationView
+                        key={application.name}
+                        application={application}
+                    />
                 ))}
             </div>
         </div>
