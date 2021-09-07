@@ -1,0 +1,12 @@
+.filters-view {
+    margin-right: 10px;
+}
+
+.spending-range {
+    width: 100%;
+}
+
+.spending-range-values {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-layout {
+    border-right: 1px solid black;
+    min-width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.splitter {
+    height: 10px;
+    margin-right: 10x;
+    border-bottom: 1px solid black;
+}
