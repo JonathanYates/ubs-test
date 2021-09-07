@@ -1,3 +1,9 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -5,6 +11,7 @@ body {
 .layout {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .side-layout {
@@ -23,6 +30,6 @@ body {
 
 .splitter {
     height: 10px;
-    margin-right: 10x;
+    margin-right: 10px;
     border-bottom: 1px solid black;
 }
